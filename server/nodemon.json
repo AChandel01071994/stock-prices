@@ -1,0 +1,5 @@
+{
+    "watch": ["src"],
+    "ext": "ts",
+    "exec": "node -r ts-node/register --inspect-brk=3000 ./src/config/server/index.ts"
+}
